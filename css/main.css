@@ -1,0 +1,290 @@
+@media all and (max-width:991px) {
+    .emailCountry{
+        width: 100vw;
+        height: 50vh;
+        background-color: #ededed;
+    }
+    .emailbar {
+        border: 1px solid black;
+        width: 80vw;
+        height: 5vh;
+        border-radius: 0;
+        cursor: pointer;
+    }
+
+    .dropdown-center:hover {
+        border: 1px solid black;
+    }
+
+    .PNearEmailbar {
+        width: 80vw;
+        height: fit-content;
+        margin-bottom: -8px;
+    }
+
+    .LenovoAppFont {
+        font-size: calc(7px + 1.2vw);
+    }
+
+    .LenovoAppFont0 {
+        font-size: 14px;
+    }
+    .bottomSigns{
+    background-color: #ededed;
+    }
+    .solutionsAll {
+        height: 180vh;
+        width: 100vw;
+        background-color: #ededed;
+    }
+    .solutionsP {
+        width: 100%;
+        height: fit-content;
+    }
+    .rewards1 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 40vh;
+    }
+    .rewards2 {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    height: 40vh;
+    }
+    .exploreDiv{
+        background-color: #171717;
+        color: white;
+    }
+    .exploreIcons{
+        color: white;
+        background-color:#2a2a2a ;
+    }
+    .exploreH1{
+        color: white;
+    }
+    .valuesImg{
+        flex-shrink: 0;
+    }
+}
+@media all and (min-width:991px) {
+    .emailCountry {
+    width: 100vw;
+    height: 130vh;
+    background-color: #ededed;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    }
+    .LenovoAppFont0 {
+        font-size: 14px;
+    }
+    .emailbar {
+        border: 1px solid black;
+        width: 20vw;
+        height: 6vh;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    .li-bigsize{
+        margin-bottom: 1.5vh;
+        font-size: 13px;
+    }
+    .solutionsAll {
+        height:95vh;
+        width: 100vw;
+        background-color: #ededed;
+    }
+    .solutionsP {
+        width: 47vw;
+        height: 30vh;
+    }
+    .rewards1 {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+    height: 35vh;
+    }
+
+    .rewards2 {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 100%;
+    height: 35vh;
+    }
+    .exploreIcons {
+        color: black;
+        background-color: #ededed;
+    }
+    .exploreDiv {
+        background-color: white;
+        color: black;
+    }
+}
+body{
+    overflow-x: hidden;
+    background-color: #ededed;
+}
+.exploreIcons{
+    font-size: calc(20px + 2vw);
+    width: calc(40px + 3vw);
+    height: calc(40px + 3vw);
+    border-radius: 100px;
+    /* background-color: #ededed; */
+}
+.exploreP{
+    font-size: calc(7px + 0.5vw);
+}
+.FirstPart-div{
+    width: 100%;
+    height: 38px;
+    background-color: #ededed;
+}
+.FirstPart-p{
+    font-size: 14px;
+}
+.FirstPart-i2{
+    display: none;
+}
+.FirstPart-i12:hover{
+    border-bottom: 5px solid red;
+    background-color: white;
+}
+.FirstPart-p:hover {
+    border-bottom: 5px solid red;
+    background-color: white;
+}
+.FirstPart-p:hover .FirstPart-i1{
+    display: none;
+}
+.FirstPart-p:hover .FirstPart-i2 {
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+.lastIcons{
+    font-size: 30px;
+    color: #294e95;
+}
+.fixedSupport{
+    width: 100%;
+    border-top: 1px solid black;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+.supportFont{
+    color: #294e95;
+}
+.solutionsPartone{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/lenovo-thinksystem-sr630-v4.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.solutionsParttwo{
+    width: 100%;
+    height: 30vh;
+    background-image: url(../img/lenovo-analytics-ai.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.solutions{
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 20px;
+}
+.solutionButton{
+    width: fit-content;
+    height: 50px;
+    background-color:white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.rewards1{
+    background-image: url(../img/lenovo-merchandising-card-rewards-2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;    
+}
+/* .rewards2{
+
+} */
+.rewardsAll{
+    background-color: #ededed;
+}
+
+
+
+
+/* //////////////////// */ 
+/* Personalized Shopping */
+.valuesDiv {
+    float: right;
+    width: 98%;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.valuesImg {
+    width: 88%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.valueImg1 {
+    background-image: url(../img/values/1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.valueImg2 {
+    background-image: url(../img/values/2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.valueImg3 {
+    background-image: url(../img/values/3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
