@@ -1,0 +1,24 @@
+{
+  "name": "tapsi-arash-azad",
+  "version": "1.0.0",
+  "description": "responsive web page of tapsi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arash-azad/tapsi-arash-azad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arash-azad/tapsi-arash-azad/issues"
+  },
+  "homepage": "https://github.com/arash-azad/tapsi-arash-azad#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "live-server": "^1.2.2"
+  }
+}
