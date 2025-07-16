@@ -1,3 +1,19 @@
+// let showBtn = document.getElementById( "covershower");
+// let coverScreen = document.getElementById("CoveronScreen");
+
+
+// showBtn.addEventListener("click", function(){
+//   coverScreen.classList.remove("OnOfAll");
+//   coverScreen.classList.add("OnOfAllopposite");
+// })
+// showBtn.addEventListener("click", function(){
+//   coverScreen.style.display === "block";
+// })
+
+
+
+
+
 const slides = document.querySelector('.slides');
 const slideItems = document.querySelectorAll('.slide-item');
 const dots = document.querySelectorAll('.dot');
@@ -89,7 +105,6 @@ prev5.addEventListener('click', () => {
   }
 });
 
-// کلیک روی دایره‌ها
 dots5.forEach(dot => {
   dot.addEventListener('click', () => {
     const index = parseInt(dot.getAttribute('data-index'));
@@ -98,8 +113,8 @@ dots5.forEach(dot => {
   });
 });
 
-// شروع اولیه
 updateSlider5();
+
 
 
 

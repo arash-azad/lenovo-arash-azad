@@ -622,3 +622,128 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/* ///////////////////////// */
+/* navbar */
+.navbarMobile{
+    width: 100vw;
+    height: 16vh;
+    background-color: black;
+}
+.navbarMobileDiv1{
+    height: 6vh;
+}
+.navbarFirstMobile1{
+    font-size: calc(16px + 2vw);
+    color: white;
+}
+.navbarMobileDiv1{
+    height: 8vh;
+}
+.searchNavbarMobile{
+    border: 2px solid white;
+    background-color: #171717;
+    /* height: 8vh; */
+}
+.searchNavbarMobile::placeholder {
+    color: white;
+}
+
+
+
+.navbarLaptop{
+    width: 100vw;
+    height: 16vh;
+    background: white;
+}
+.navbarLaptopDiv{
+    height: 7vh;
+}
+.searchNavbarlaptop{
+    width: 35vw;
+    border: 2px solid black;
+}
+.navbarLaptopPDiv{
+    width: 30vw;
+    font-size: calc(8px + 1.2vw);}
+.navbarLaptopDiv2{
+        height: 7vh;
+        width: 98vw;
+        /* background-color: aquamarine; */
+        align-items: end;
+}
+.navbarLI2{
+    font-size: calc(8px + 0.7vw);
+    color: gray;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+.divInLi{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    background-color: #ededed;
+    z-index: 2222;
+    left: 0;
+    overflow: hidden;
+    display: none;
+}
+li:hover .divInLi{
+    display: block;
+}
+.hoverOnIcons:hover{
+    border-bottom: 5px solid red;
+    background-color: #ededed;
+}
+.divInLi2{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: #ededed;
+    z-index: 2222;
+    right: 0;
+    overflow: hidden;
+    display: none;
+}
+li:hover .divInLi2 {
+    display: block;
+}
+.imgNavbar2{
+    width: 30%;
+    height: 10%;
+padding: 10px;
+}
+
+.OnOfAll{
+
+    width: 100%;
+    height: 100%;
+    background-color: #294e95;
+    position: absolute;
+    z-index: 99999999999999999999999999999999999;
+    display: none;
+}
+/* .OnOfAllopposite {
+
+    width: 100%;
+    height: 100%;
+    background-color: #294e95;
+    position: absolute;
+    z-index: 99999999999999999999999999999999999;
+} */
+
+.ulindivInLi li:hover{
+    background-color: white;
+    border-bottom: 2px solid red;
+}
+.divInLi2 div ul li:hover{
+    color: #294e95;
+        border-bottom: 2px solid #294e95;
+}
