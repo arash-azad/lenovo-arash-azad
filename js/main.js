@@ -1,17 +1,21 @@
-// let showBtn = document.getElementById( "covershower");
-// let coverScreen = document.getElementById("CoveronScreen");
+let showBtn = document.getElementById( "covershower");
+let coverScreen = document.getElementById("CoveronScreen");
 
 
-// showBtn.addEventListener("click", function(){
-//   coverScreen.classList.remove("OnOfAll");
-//   coverScreen.classList.add("OnOfAllopposite");
-// })
+showBtn.addEventListener("click", function(){
+  coverScreen.classList.remove("OnOfAll");
+  coverScreen.classList.add("OnOfAllopposite");
+})
 // showBtn.addEventListener("click", function(){
 //   coverScreen.style.display === "block";
 // })
 
 
-
+let crossBtn = document.getElementById( "bigCrossBtn");
+crossBtn.addEventListener("click", function(){
+  coverScreen.classList.remove("OnOfAllopposite");
+  coverScreen.classList.add("OnOfAll");
+})
 
 
 const slides = document.querySelector('.slides');

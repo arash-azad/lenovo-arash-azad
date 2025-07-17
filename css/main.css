@@ -728,16 +728,28 @@ padding: 10px;
     background-color: #294e95;
     position: absolute;
     z-index: 99999999999999999999999999999999999;
-    display: none;
+    transform: scale(0);
 }
-/* .OnOfAllopposite {
+
+
+@keyframes firstanimation {
+    from {
+    transform: scalex(0);    }
+
+    to {
+    transform: scalex(1);    }
+}
+.OnOfAllopposite {
 
     width: 100%;
     height: 100%;
-    background-color: #294e95;
+    background-color: white;
     position: absolute;
     z-index: 99999999999999999999999999999999999;
-} */
+    animation-name: firstanimation;
+    animation-duration: 0.5s;
+    transform: scale(1);
+}
 
 .ulindivInLi li:hover{
     background-color: white;
